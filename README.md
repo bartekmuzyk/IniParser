@@ -29,9 +29,13 @@ Let's say we have a file that looks like this:
 [UserConfig]
 Name=John
 Surname=Doe
+
+[NetworkingStuff]
+IP=192.168.0.1
+Port=8080
 ```
 
-The `result` variable would contain a dictionary where the keys list is `["MyCategory", "UserConfig"]`.
+The `result` variable would contain a dictionary where the keys list is `["MyCategory", "NetworkingStuff"]`.
 However, `.Values` of `result` would be a list of `Category` objects. That way it's easy to get a category object just by knowing its name.
 
 Let's say we want to get the entries of the `[UserConfig]` category.
