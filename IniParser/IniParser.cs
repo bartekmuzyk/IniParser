@@ -57,7 +57,7 @@ namespace Ini
     				if (currentCategory is null)
 	                    throw new ArgumentException($"Ini parsing error on line {lineCount + 1}\nNo category specified.");
                     
-                    Category category = result[currentCategory];
+					Category category = result[currentCategory];
     				category.AddEntry(new Entry(keyValuePair[0], keyValuePair[1]));
     			}
     		}
