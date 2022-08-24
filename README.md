@@ -1,3 +1,12 @@
+# Not maintained
+You are free to do **whatever you want** with this repo, however please note that this package is:
+1) Not available in any NuGet repository, which makes it hard to maintain versions in your project
+2) Not actively maintained, which will make the code inside possibly become unoptimized with time
+3) Not fully compatible with the INI file format spec (examples include no comments support)
+4) Prone to error due to its sensitivity to syntax correctness
+
+### **Consider using alternatives, like [salaros/config-parser](https://github.com/salaros/config-parser)**
+
 # IniParser
 A fast and easy to use C# .ini files parser.
 
